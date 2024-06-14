@@ -1,0 +1,11 @@
+{
+  "presets": [
+    ["@babel/env", { "targets": { "node": "current" }, "useBuiltIns": false }],
+    "@babel/typescript"
+  ],
+  "plugins": [
+    "@babel/plugin-transform-runtime",
+    "@babel/proposal-object-rest-spread",
+    "@babel/proposal-class-properties"
+  ]
+}
