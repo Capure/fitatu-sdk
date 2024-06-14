@@ -75,6 +75,9 @@ typings/
 # babel output directory
 lib/
 
+# development environment
 dev.js
 dev.mjs
 user-data.json
+
+.DS_Store
